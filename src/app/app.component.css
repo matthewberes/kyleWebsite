@@ -1,0 +1,40 @@
+.flex {
+    display: flex;
+    height: 100%;
+}
+
+.left-margin {
+    background-color: #808080;
+    flex-basis: 35%;
+    justify-content: center;
+}
+
+.right-margin {
+    background-color: #f4f3f2;
+    flex-basis: 65%;
+    overflow-y: hidden;
+}
+
+.inner-body {
+    margin-top: 25%;
+    margin-left: 8%;
+    margin-right: 8%;
+    background-color: #d2d2d2;
+    height: 89%;
+    overflow: hidden;
+}
+
+img {
+    display: block;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+p,
+h1,
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
