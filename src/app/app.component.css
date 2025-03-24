@@ -10,13 +10,13 @@
 }
 
 .right-margin {
-    background-color: #f4f3f2;
+    background-color: #edeef0;
     flex-basis: 65%;
     overflow-y: hidden;
 }
 
 .inner-body {
-    margin-top: 25%;
+    border-radius: 4px;
     margin-left: 8%;
     margin-right: 8%;
     background-color: #d2d2d2;
@@ -24,12 +24,36 @@
     overflow: hidden;
 }
 
-img {
+
+.kylePhoto,
+.logoPhoto {
     display: block;
     width: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
+}
+
+.leftPhoto {
+    width: 125px;
+    height: 175px;
+    background-color: #e2e0d2;
+    overflow: hidden;
+    text-align: center;
+    transform: rotate(355deg);
+    border: solid 5px #e2e0d2;
+    outline: 1px solid;
+}
+
+.rightPhoto {
+    width: 125px;
+    height: 175px;
+    background-color: #e2e0d2;
+    overflow: hidden;
+    text-align: center;
+    transform: rotate(5deg);
+    border: solid 5px #e2e0d2;
+    outline: 1px solid;
 }
 
 p,
