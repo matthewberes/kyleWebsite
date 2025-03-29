@@ -7,12 +7,13 @@
     background-color: #808080;
     flex-basis: 35%;
     justify-content: center;
+    overflow-y: auto;
 }
 
 .right-margin {
     background-color: #edeef0;
     flex-basis: 65%;
-    overflow-y: hidden;
+    overflow-y: auto;
 }
 
 .inner-body {
@@ -21,15 +22,15 @@
     margin-right: 8%;
     margin-top: -.5%;
     background-color: #d2d2d2;
-    height: 89%;
-    overflow: hidden;
+    height: 78%;
+    overflow-y: auto;
 }
 
 
 .kylePhoto,
 .logoPhoto {
     display: block;
-    width: 40%;
+    max-width: 40%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
@@ -37,7 +38,8 @@
 
 .leftPhoto {
     width: 125px;
-    height: 175px;
+    height: 20vh;
+    min-height: 100%;
     background-color: #e2e0d2;
     overflow: hidden;
     text-align: center;
@@ -48,7 +50,8 @@
 
 .rightPhoto {
     width: 125px;
-    height: 175px;
+    height: 20vh;
+    min-height: 100%;
     background-color: #e2e0d2;
     overflow: hidden;
     text-align: center;
@@ -68,17 +71,32 @@
     border: solid 2px
 }
 
-p,
-h1,
-h2 {
+p {
+    font-size: 1.5cqw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
+}
+
+h1 {
+    font-size: 2.75cqw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2cqw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+a {
+    font-size: 1.5cqw;
 }
 
 .buttonText {
     margin: 0px;
     text-align: center;
-    font-size: 24pt;
+    font-size: 3cqw;
 }
 
 a {
@@ -87,8 +105,8 @@ a {
 
 .fa {
     padding: 20px;
-    font-size: 30px;
-    width: 30px;
+    font-size: 3cqw;
+    width: 3cqw;
     text-align: center;
     text-decoration: none;
     border-radius: 4px;
